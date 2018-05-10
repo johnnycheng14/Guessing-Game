@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+
+  </head>
+  <body>
+
+      <div id='app' class='center'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>
+            Guessing Game!
+          </h1>
+          <h2 id='subtitle'>
+            Pick a number from 1 to 100!
+          </h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input class='center' id='players-input' placeholder="-" maxlength='3'>
+            <button id="submit" class='btn btn-success'>
+              Go!
+            </button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-warning'>
+              Reset
+            </button>
+            
+            <button id='hint' class='btn btn-info'>
+              Hint
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4><strong>Project by Johnny Cheng</strong></h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>

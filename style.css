@@ -1,0 +1,55 @@
+.center{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+img{
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer{
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;  
+}   
+.guess{
+    display: inline;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 0 25px;
+    border-radius: 30%;
+    background-color: white;
+}
+#players-input{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+}
+#submit{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+#input-parent{
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+body{
+    background-image: url('Numbers.jpg')
+}
+#app{
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(138, 83, 70, 0.788)
+}
